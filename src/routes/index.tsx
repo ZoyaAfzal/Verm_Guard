@@ -12,6 +12,7 @@ import { Testimonials } from "@/components/sections/Testimonials";
 import { BeforeAfter } from "@/components/sections/BeforeAfter";
 import { PricingSection } from "@/components/sections/PricingSection";
 import { FAQSection } from "@/components/sections/FAQSection";
+import { ContactSection } from "@/components/sections/ContactSection";
 import { CTABanner } from "@/components/sections/CTABanner";
 
 export const Route = createFileRoute("/")({
@@ -34,6 +35,7 @@ function Index() {
         <Testimonials />
         <PricingSection />
         <FAQSection />
+        <ContactSection />
         <CTABanner />
       </main>
       <Footer />
